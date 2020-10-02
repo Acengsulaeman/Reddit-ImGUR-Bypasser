@@ -30,30 +30,14 @@ nc="\e[0m"
 #clear
 clear
 #Start on this line
-printf "${blue}";
-echo    "           / \                                            ";
-echo    "          / _ \                                           ";
-echo    "         | / \ |                                          ";
-echo    "         ||   ||  ______                                  ";
-echo    "         ||   || |\     \                                 ";
-echo    "         ||   || ||\     \                                ";
-echo    "         ||   || || \    |                                ";
-echo    "         ||   || ||  \__/                                 ";
-echo    "         ||   || ||   ||                                  ";
-echo    "          \\_/ \_/ \_//                                                ";
-printf	"         /   \     __  \  ${white} coded by B1p0l4r | IndoXploit ${blue}   \n"
-printf	"        /     \   /     \ ${white}   Reddit and ImGUR bypasser    ${blue}   \n"
-printf	"        |   ${white} O     O   ${blue} | ${white}         version 1.0           ${blue}   \n"
-printf 	"        |   \  ___  /   | ${white}                               ${blue}   \n"
-printf 	"       /     \ \_/ /     \ ${white}   ------------------------     ${blue}   \n"
-printf	"      /  -----  |  --\    \ ${white}  * www.indoxploit.or.id * ${blue} \n"
-printf  "      |     \__/|\__/ \   |  ${white} ------------------------ ${blue} \n"
-echo    "      \       |_|_|       /                               ";
-echo    "       \_____       _____/                                ";
-echo    "             \     /                                      ";
-echo    "             |     |                                      ";
-echo    "";
-printf  " ${white} \n"
+printf "${blue}
+/  \.-"""-./  \
+\    -   -    /
+ |   o   o   |   Coded by KeepWannabe | Indoxploit
+ \  .-'''-.  /
+  '-\__Y__/-'
+     `---`
+     \n\n"
 if [[ $(whoami) != "root" ]]
 then
 printf " ${white}[*] ${red}This script must be run as root ${white}[*]\n"
